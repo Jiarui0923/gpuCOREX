@@ -10,7 +10,17 @@
 `COREX` _(**COR**relation with hydrogen **EX**change protection factors)_ is an algorithm designed to compute comformational stability of a protein. This program is slow due to it is single-processing program. Therefore, a muilti-processing program version COREX is developed named `pCOREX`. This improves COREX efficiency significantly. However, the speed is still limited. Therefore, we are going to develop a GPU version of COREX named `gpuCOREX` to accelerate it more.
 
 ## Cite  
-
+Li, J., Landry, S. J., & Mettu, R. R. (2024, December). GPU Acceleration of Conformational Stability Computation for CD4+ T-cell Epitope Prediction. In 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 191-196). IEEE.
+```bibtex
+@inproceedings{li2024gpu,
+  title={GPU Acceleration of Conformational Stability Computation for CD4+ T-cell Epitope Prediction},
+  author={Li, Jiarui and Landry, Samuel J and Mettu, Ramgopal R},
+  booktitle={2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages={191--196},
+  year={2024},
+  organization={IEEE}
+}
+```
 
 ## Requirements
 |Package|Version|Usage|Website|
