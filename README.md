@@ -1,5 +1,4 @@
-<img src="images/tulane_long.png" width="128px">
-<img src="images/icon_bar.png" width="164px">
+<img src="images/tulane_long.png" width="128px"><img src="images/icon_bar.png" width="164px">
 
 # gpuCOREX
 **G**raph **P**rocessing **U**nits version of  

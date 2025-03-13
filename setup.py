@@ -8,7 +8,6 @@ procedure on CPUs. Adaptive Monte Carlo sampling allows a auto adaptive sampling
 threshold to balance output quality and computation efficiency.
 We achieve further acceleration and higher COREX quality than pCOREX.
 '''
-
 setup(
     name='gpucorex',
     version='0.0.2',
@@ -20,8 +19,17 @@ setup(
     url='https://git.tulane.edu/apl/apl/-/tree/COREX-BEST/COREX/gpuCOREX',
     license='Apache 2.0',
     install_requires=[
-        'Cython', 'torch', 'termcolor', 'pandas', 'numpy', 'biopandas', 'biotite',
-        'scipy', 'tqdm', 'scikit-learn', 'matplotlib'
+        'Cython',
+        'torch',
+        'termcolor',
+        'pandas==2.0.3',
+        'numpy==1.24.4',
+        'biopandas==0.4.1',
+        'biotite==0.38.0',
+        'scipy==1.10.1',
+        'tqdm==4.66.1',
+        'scikit-learn==1.1.2',
+        'matplotlib==3.7.3'
     ],
     entry_points={
         'console_scripts': [
