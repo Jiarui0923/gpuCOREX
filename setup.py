@@ -23,13 +23,13 @@ setup(
         'torch',
         'termcolor',
         'pandas',
-        'numpy==1.24.4',
-        'biopandas==0.4.1',
-        'biotite==0.38.0',
-        'scipy==1.10.1',
-        'tqdm==4.66.1',
-        'scikit-learn==1.1.2',
-        'matplotlib==3.7.3'
+        'numpy',
+        'biopandas',
+        'biotite',
+        'scipy',
+        'tqdm',
+        'scikit-learn',
+        'matplotlib'
     ],
     entry_points={
         'console_scripts': [
