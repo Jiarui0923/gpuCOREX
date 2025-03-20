@@ -22,7 +22,7 @@ setup(
         'Cython',
         'torch',
         'termcolor',
-        'pandas==2.0.3',
+        'pandas',
         'numpy==1.24.4',
         'biopandas==0.4.1',
         'biotite==0.38.0',
